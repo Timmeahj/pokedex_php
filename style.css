@@ -1,0 +1,303 @@
+body{
+  height: 100vh;
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  overflow: hidden;
+}
+
+.container{
+   width: 800px;
+   margin-left: 50px;
+   margin-top: 50px;
+}
+
+#pokedex{
+    width:800px;
+    position: absolute;
+
+}
+
+.picture img{
+    height: 100%;
+}
+
+.small{
+  height: 50%!important;
+  margin-top: 17%;
+}
+
+.small2{
+  height: 50%!important;
+  margin-top: 18%;
+  margin-left: 23px;
+}
+
+.picture{
+
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 71px;
+    height: 168px;
+    width: 254px;
+    text-align: center;
+}
+.idnumber{
+
+
+    position: absolute;
+    margin-top: 447px;
+    margin-left: 50px;
+    height: 83px;
+    width: 91px;
+    text-align: center;
+    line-height: 2;
+    font-size: 40px;
+}
+
+.description{
+
+    font-size: 200%;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 478px;
+    height: 93px;
+    width: 258px;
+    text-align: center;
+    line-height: 2.5;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.move1{
+
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 304px;
+    margin-left: 476px;
+    height: 40px;
+    width: 119px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.move2{
+
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 304px;
+    margin-left: 617px;
+    height: 40px;
+    width: 118px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.move3{
+
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 361px;
+    margin-left: 476px;
+    height: 40px;
+    width: 119px;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.move4{
+
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 362px;
+    margin-left: 616px;
+    height: 40px;
+    width: 119px;
+    text-align: center;
+    line-height: 2.5;
+}
+.search{
+    margin-top: 446px;
+    margin-left: 158px;
+    height: 41px;
+    width: 196px;
+    position: absolute;
+}
+
+#search{
+    height: 40px;
+    width: 196px;
+    background: none;
+    border: none;
+    padding-left: 10px;
+    color: white;
+}
+
+#goSearch{
+    margin-top: 13px;
+    height: 33px;
+    width: 196px;
+    position: absolute;
+    background: rgba(35,35,35,1);
+    border: 2px solid black;
+    color: white;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+#goSearch:hover{
+  background: white;
+  color: black;
+}
+
+#first{
+
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 475px;
+    height: 75px;
+    width: 86px;
+    transition: 0.2s;
+}
+
+
+#first img{
+    height: 100%;
+    text-align: center;
+}
+#second{
+
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 563px;
+    height: 75px;
+    width: 86px;
+    transition: 0.2s;
+}
+
+#second img{
+    height: 100%;
+    text-align: center;
+}
+#third{
+
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 651px;
+    height: 75px;
+    width: 86px;
+    transition: 0.2s;
+}
+
+
+#first:hover{
+    width: 100px;
+    height: 100px;
+  cursor: pointer;
+  background: white;
+    transform: rotate(360deg);
+  border-radius: 50%;
+    margin-left: 465px;
+
+}
+
+#second:hover{
+    width: 100px;
+    height: 100px;
+  cursor: pointer;
+  background: white;
+    transform: rotate(360deg);
+  border-radius: 50%;
+    margin-left: 553px;
+}
+
+#third:hover{
+    width: 100px;
+    height: 100px;
+  cursor: pointer;
+  background: white;
+    transform: rotate(360deg);
+  border-radius: 50%;
+    margin-left: 641px;
+}
+
+#third img{
+    height: 100%;
+    text-align: center;
+}
+
+#previous{
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 135px;
+  background: rgba(35,35,35,1);
+  border: 2px solid black;
+  color: white;
+  border-radius: 7px;
+  transition: 0.3s;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  transition: 0.3s;
+}
+
+#next{
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 185px;
+  background: rgba(35,35,35,1);
+  border: 2px solid black;
+  color: white;
+  border-radius: 7px;
+  transition: 0.3s;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  transition: 0.3s;
+}
+
+#previous:hover{
+  background: white;
+  color: black;
+}
+
+#next:hover{
+  background: white;
+  color: black;
+}
+
+.gone{
+    display: none;
+}
+
+.cap::first-letter {
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.zoinks{
+    position: absolute;
+    z-index: 0;
+    margin-top: -51px;
+    width: 100%;
+    height: 100vh;
+}
+
+#zoinksButton{
+    margin-left: 98px;
+    margin-top: 10px;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    z-index: 10000000;
+    background: white;
+    opacity: 0;
+    transition: 0.5s;
+    border-radius: 50%;
+
+}
+
+#zoinksButton:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
